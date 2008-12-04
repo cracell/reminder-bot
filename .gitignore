@@ -1,0 +1,9 @@
+.DS_Store
+log/*.log
+tmp/**/*
+db/schema.rb
+public/javascripts/all.js
+public/stylesheets/all.css
+config/database.yml
+config/settings.yml
+log/*

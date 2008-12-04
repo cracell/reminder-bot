@@ -1,0 +1,16 @@
+development: &non_production_settings
+  site_url: http://localhost:3000
+  site_name: Reminder Bot
+  admin_email: example@gmail.com
+  gmail: example@gmail.com
+  gmail_password: example
+  
+test:
+  <<: *non_production_settings
+  
+production:
+  site_url: http://example.com
+  site_name: Reminder Bot
+  admin_email: example@gmail.com
+  gmail: example@gmail.com
+  gmail_password: example
