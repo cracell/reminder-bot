@@ -1,6 +1,6 @@
 require 'xmpp4r-simple'
-require 'chronic'
-class Bot
+
+class OldBot
   attr_accessor :messenger
   cattr_accessor :main
   def self.start
